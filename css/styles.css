@@ -46,7 +46,7 @@ a:hover {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
-.user {
+.teacher{
 	background-image: url(../img/chalkboard-teacher.png);
 }
 .account {
@@ -88,11 +88,22 @@ a:hover {
 	border: 1px solid lightgray;
 }
 .itm1 {
-	flex-grow: 1;
+	/*flex-grow: 1;*/
+	flex-basis: 200px;
 }
 .itm2 {
-	flex-grow: 2;
+	/*flex-grow: 15;*/
+	flex-basis: 50%;
 }
 .itm3 {
-	flex-grow: 2;
+	/*flex-grow: 15;*/
+	flex-basis: 50%;
+}
+.user-icon {
+	height: 200px;
+	width: 200px;
+	background-size: 200px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url(../img/av_256.png);
 }
