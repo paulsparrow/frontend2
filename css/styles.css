@@ -61,13 +61,10 @@ a:hover {
 }
 .info {
 	margin: 0px 50px;
-	/*height: 400px;*/ 
-/* 	border: 1px solid lightgray; */
 }
 .submenu {
 	background-color: #CCE5FF;
-	border-radius: 2px;
-
+	border-radius: 5px;
 }
 .submenu ul {
 	display: flex;
@@ -82,26 +79,24 @@ a:hover {
 	padding: 10px 0px;
 	color: #1B5589;
 }
+.submenu ul li a:hover {
+	text-decoration: underline;
+}
 .flexforms {
 	display: flex;
     justify-content: center;
 }
 .itm {
-	box-sizing: border-box;
-	/*border: 1px solid lightgray;*/
 }
 .itm1 {
-	/*flex-grow: 1;*/
 	flex-basis: 200px;
 	padding-right: 20px;
 }
 .itm2 {
-	/*flex-grow: 15;*/
 	flex-basis: 50%;
 	padding-right: 10px;
 }
 .itm3 {
-	/*flex-grow: 15;*/
 	flex-basis: 50%;
 	padding-left: 10px;
 }
@@ -132,4 +127,5 @@ input[type="button"]
 input[type="button"] {
 	background-color: #6C757D;
 	color: white;
+	cursor: pointer;
 }
