@@ -79,7 +79,20 @@ a:hover {
 	text-align: center;
 	padding: 10px 0px;
 	color: #1B5589;
-/*	height: 30px;*/
-/*	width: 200px;*/
-
+}
+.flexforms {
+	display: flex;
+    justify-content: center;
+}
+.itm {
+	border: 1px solid lightgray;
+}
+.itm1 {
+	flex-grow: 1;
+}
+.itm2 {
+	flex-grow: 2;
+}
+.itm3 {
+	flex-grow: 2;
 }
