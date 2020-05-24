@@ -1,0 +1,10 @@
+body {
+	padding: 20px 0px;
+	margin: 0px;
+	font-family: arial;
+}
+.conteiner {
+	margin: 0px auto;
+	width: 80%;
+	border: 1px solid lightgray;
+}
