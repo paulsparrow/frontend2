@@ -90,6 +90,7 @@ a:hover {
 .itm1 {
 	/*flex-grow: 1;*/
 	flex-basis: 200px;
+	text-align: center;
 }
 .itm2 {
 	/*flex-grow: 15;*/
