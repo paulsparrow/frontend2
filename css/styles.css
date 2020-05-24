@@ -51,3 +51,10 @@ a:hover {
 .account {
 	background-image: url(../img/av_64.png);
 }
+.text {
+	width: 100%;
+	text-align: center;
+	font-size: 34px;
+	padding: 10px 0px;
+	background-color: white;
+}
