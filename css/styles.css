@@ -68,7 +68,7 @@ a:hover {
 }
 .submenu ul {
 	display: flex;
-	justify-content:space-around;
+ 	justify-content:space-around;
 	width: 100%;
 	
 }
@@ -101,9 +101,9 @@ a:hover {
 	padding-left: 10px;
 }
 .user-icon {
-	height: 200px;
-	width: 200px;
-	background-size: 200px;
+	height: 154px;
+	width: 180px;
+	background-size: 155px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-image: url(../img/av_256.png);
